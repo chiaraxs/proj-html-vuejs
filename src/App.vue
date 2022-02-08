@@ -3,7 +3,7 @@
   
   <div id="app">
     
-    <header-box />
+    <header-box :navbar = "navbar" />
     <hero-box />
     <featured-products />
     <collections-box />
@@ -35,7 +35,7 @@ import FreeShipping from "./components/FreeShipping.vue";
 import NewArrivals from "./components/NewArrivals.vue";
 import CustomersReview from "./components/CustomersReview.vue";
 import OurBlog from "./components/OurBlog.vue";
-import SummaryAreas from "./components/SummaryAreas";
+import SummaryAreas from "./components/SummaryAreas.vue";
 import BrandLogs from "./components/BrandLogs.vue";
 import SubscribeBox from "./components/SubscribeBox.vue";
 import FooterBox from "./components/FooterBox.vue";
@@ -59,7 +59,43 @@ export default {
     SubscribeBox,
     FooterBox,
     PaymentType,
-}
+  },
+  data() {
+    return {
+      // HEADER-BOX: NAVBAR MENU
+      navbar: [
+        {
+          id: "1",
+          label: "Home",
+          url: "#"
+        },
+        {
+          id: "2",
+          label: "Shop",
+          url: "#"
+        },
+        {
+          id: "3",
+          label: "Products",
+          url: "#"
+        },
+        {
+          id: "4",
+          label: "Categories",
+          url: "#"
+        },
+        {
+          id: "5",
+          label: "News",
+          url: "#"
+        },
+        {
+          id: "6",
+          label: "Elements",
+          url: "#"
+          },
+          ]
+    }}
 }
 </script>
 
