@@ -8,14 +8,14 @@
             <div class="container container-pre-header d-flex">
                 <div class="d-flex ps-5 pt-3">
                     
-                    <i class="fab fa-facebook-f mx-2"></i>
+                    <i class="fab fa-facebook-f mx-2 "></i>
                     <i class="fab fa-twitter mx-2"></i>
                     <i class="fab fa-instagram mx-2"></i>
                     <i class="fab fa-youtube mx-2"></i>
                 
                 </div>
                 
-                <div class="container d-flex justify-content-end text-center">
+                <div class="container d-flex justify-content-end">
                     <div class="shopping"> 
                         <p class="px-4 py-2">Shooping Cart</p>  
                     </div>
