@@ -35,7 +35,7 @@ import FreeShipping from "./components/FreeShipping.vue";
 import NewArrivals from "./components/NewArrivals.vue";
 import CustomersReview from "./components/CustomersReview.vue";
 import OurBlog from "./components/OurBlog.vue";
-import SummaryAreas from "./components/SummaryAreas.vue";
+import SummaryAreas from "./components/SummaryAreas";
 import BrandLogs from "./components/BrandLogs.vue";
 import SubscribeBox from "./components/SubscribeBox.vue";
 import FooterBox from "./components/FooterBox.vue";
