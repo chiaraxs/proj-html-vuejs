@@ -1,6 +1,6 @@
 <template>
-   
-    <!-- CONTAINER HEADER-BOX -->
+    <header class="sticky-top">
+        <!-- CONTAINER HEADER-BOX -->
     <div class="container-header-box">
 
         <!-- PRE HEADHER - COMPONENTE A PARTE? -->
@@ -74,6 +74,8 @@
     </div>
    <!-- / CONTAINER HEADER-BOX -->
 
+    </header>
+    
 
 </template>
 
@@ -90,6 +92,9 @@ export default {
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
 
+header{
+    background-color: white;
+}
 .container-fluid{
     border-bottom: 1px solid gray;
     
