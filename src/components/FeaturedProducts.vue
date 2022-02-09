@@ -22,7 +22,7 @@
             <div class="row mt-5">
 
                 <!-- OUTFIT 1 -->
-                <div class="col">
+                <div class="col-3">
                     
                     <div class="container-outfit">
                         <img src="../assets/img/black_elegant_leather_jacket-400x520.jpg" alt="">
@@ -38,7 +38,7 @@
                 <!-- / OUTFIT 1  -->
 
                 <!-- OUTFIT 2 -->
-                <div class="col">
+                <div class="col-3">
                     
                     <div class="container-outfit">
                         <img src="../assets/img/black_leather_suit-400x520.jpg" alt="">
@@ -54,7 +54,7 @@
                 <!-- / OUTFIT 2 -->
                         
                 <!-- OUTFIT 3 -->
-                <div class="col">
+                <div class="col-3">
 
                     <div class="container-outfit">
                         <img src="../assets/img/blue_jacket_and_white_stripe_tee-400x520.jpg" alt="">
@@ -69,7 +69,7 @@
                 <!-- / OUTFIT 3 -->
                             
                 <!-- OUTFIT 4 -->
-                <div class="col">
+                <div class="col-3">
                     
                     <div class="container-outfit">
                         <img src="../assets/img/modern_black_leather_suit-400x520.jpg" alt="">
@@ -102,8 +102,6 @@ export default {
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
 
-.container-outfit{
-    width: 200px;
-}
+
 
 </style>

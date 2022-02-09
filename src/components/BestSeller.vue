@@ -9,13 +9,13 @@
                     
                     
             <!-- OUTFITS CONTAINER -->
-            <div class="row mt-5">
+            <div class="row row-cols-5 mt-5">
 
                 <!-- OUTFIT 1 -->
                 <div class="col">
                     
                     <div class="container-outfit">
-                        <img src="../assets/img/spring_printed_dress-400x520.jpg" alt="">
+                        <img class="img-fluid" src="../assets/img/spring_printed_dress-400x520.jpg" alt="">
                     </div>
                    
                         
@@ -26,7 +26,7 @@
                 <div class="col">
                     
                     <div class="container-outfit">
-                        <img src="../assets/img/modern_love_tee-400x520.jpg" alt="">
+                        <img class="img-fluid" src="../assets/img/modern_love_tee-400x520.jpg" alt="">
                     </div>
                     
                         
@@ -37,7 +37,7 @@
                 <div class="col">
 
                     <div class="container-outfit">
-                        <img src="../assets/img/black_leather_jacket-400x520.jpg" alt="">
+                        <img class="img-fluid" src="../assets/img/black_leather_jacket-400x520.jpg" alt="">
                     </div>
                     
                 </div>
@@ -47,7 +47,7 @@
                 <div class="col">
                     
                     <div class="container-outfit">
-                        <img src="../assets/img/black_elegant_leather_jacket-400x520.jpg" alt="">
+                        <img class="img-fluid" src="../assets/img/black_elegant_leather_jacket-400x520.jpg" alt="">
                     </div>
                     
                 </div>
@@ -57,7 +57,7 @@
                 <div class="col">
                     
                     <div class="container-outfit">
-                        <img src="../assets/img/hipster_black_top-400x520.jpg" alt="">
+                        <img class="img-fluid" src="../assets/img/hipster_black_top-400x520.jpg" alt="">
                     </div>
                     
                 </div>
@@ -81,10 +81,4 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
-
-.container-outfit{
-    img{
-        width: 200px;
-    }
-}
 </style>
