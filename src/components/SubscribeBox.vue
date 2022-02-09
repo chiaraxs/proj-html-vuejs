@@ -1,5 +1,36 @@
 <template>
-    <div></div>
+    <div class="container-fluid subscribe-container">
+        <div class="container container-box d-flex justify-content-center">
+            <div class="row">
+
+                <!-- title -->
+                <div class="col-6 d-flex">
+                    <div class="icon rounded-circle text-center me-4">
+                        <i class="fa-regular fa-envelope mt-3"></i>
+                    </div>
+
+                    <div class="text text-light mt-3">
+                        <h5>Subscribe now and get special offers</h5>
+                    </div>
+                </div>
+                <!-- / title -->
+
+                <!-- input -->
+                <div class="col-6 d-flex">
+                    <div class="input-group input">
+                        
+                        <input type="text" class="form-control rounded-pill" placeholder="Insert your email" aria-label="Username">
+                    </div>
+
+                    <!-- button -->
+                    <button type="button" class="btn btn-primary text-uppercase rounded-pill px-3 ms-3">send</button>
+                    <!--  / button -->
+                    
+                </div>
+                <!-- / input -->
+            </div>
+        </div>
+    </div>
 </template>
 
 
@@ -12,4 +43,33 @@ export default {
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
 
+
+.subscribe-container{
+    height: 200px;
+    background-color: #303337;
+
+    .icon{
+        width: 50px;
+        height: 50px;
+        background-color: #2B2E32;
+
+        .fa-regular{
+            font-size: 20px;
+            color: gray;
+        }
+    }
+
+    .input{
+        width: 450px;
+    }
+
+}
+
+.container-box{
+   padding-top: 100px;
+}
+
+button{
+    width: 150px;
+}
 </style>

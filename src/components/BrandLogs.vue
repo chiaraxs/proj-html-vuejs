@@ -64,7 +64,7 @@ export default {
 
 .container-logo{
     height: 300px;
-    background-color: lightgrey;
+    background-color: #F6F6F6;
 }
 
 </style>
