@@ -57,8 +57,10 @@
             </div>
         </div>
         
+        <hr class="mx-5 mt-5">
+    
     </div>
-
+    
 </template>
 
 

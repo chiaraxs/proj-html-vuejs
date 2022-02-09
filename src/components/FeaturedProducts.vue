@@ -25,7 +25,7 @@
                 <div class="col-3">
                     
                     <div class="container-outfit">
-                        <img src="../assets/img/black_elegant_leather_jacket-400x520.jpg" alt="">
+                        <img class="mb-2" src="../assets/img/black_elegant_leather_jacket-400x520.jpg" alt="">
                         <span class="fw-bold">Black Leather Jacket</span>
                         <br>
                         <span class="text-muted">Men, Jacktes, Jeans</span>
@@ -41,7 +41,7 @@
                 <div class="col-3">
                     
                     <div class="container-outfit">
-                        <img src="../assets/img/black_leather_suit-400x520.jpg" alt="">
+                        <img class="mb-2" src="../assets/img/black_leather_suit-400x520.jpg" alt="">
                         <span class="fw-bold">Black Leather Suit</span>
                         <br>
                         <span class="text-muted">Men, Jacktes</span>
@@ -57,7 +57,7 @@
                 <div class="col-3">
 
                     <div class="container-outfit">
-                        <img src="../assets/img/blue_jacket_and_white_stripe_tee-400x520.jpg" alt="">
+                        <img class="mb-2" src="../assets/img/blue_jacket_and_white_stripe_tee-400x520.jpg" alt="">
                         <span class="fw-bold">Blue Jacket & Stripe Tee</span>
                         <br>
                         <span class="text-muted">Men, Jacktes, Suits</span>
@@ -72,7 +72,7 @@
                 <div class="col-3">
                     
                     <div class="container-outfit">
-                        <img src="../assets/img/modern_black_leather_suit-400x520.jpg" alt="">
+                        <img class="mb-2" src="../assets/img/modern_black_leather_suit-400x520.jpg" alt="">
                         <span class="fw-bold">Modern Black Leather Suit</span>
                         <br>
                         <span class="text-muted">Men, Jacktes</span>
