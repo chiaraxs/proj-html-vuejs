@@ -66,7 +66,7 @@ export default {
 }
 
 .container-box{
-   padding-top: 100px;
+   padding-top: 70px;
 }
 
 button{
