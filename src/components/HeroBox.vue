@@ -32,7 +32,7 @@ export default {
 @import '@/style/variables.scss';
 
 .hero{
-    background-image: $img-hero;
+    background-image: $bg-hero;
     height: 500px;
     background-size: cover;
     background-position: bottom bottom;

@@ -117,7 +117,7 @@ header{
 
     .cart{
         width: 200px;
-        background-color: #f0dde6;
+        background-color: $misty-rose-bg;
     }
 
  } 

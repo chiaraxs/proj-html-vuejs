@@ -25,7 +25,7 @@ export default {
 @import '@/style/variables.scss';
 
 .review-container{
-    background-image: url(../assets/img/testimonials_home_1_bg.jpg);
+    background-image: $testimonial-img;
     height: 500px;
     background-size: contain;
     background-position: center;

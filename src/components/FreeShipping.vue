@@ -40,13 +40,13 @@ export default {
 
 .container-shipping {
     height: 500px;
-    background-image: url(../assets/img/bkgd_confetti-compressor.jpg);
+    background-image: $confetti-bg;
     background-size: contain;
 
     .promo-box{
         height: 400px;
         width: 450px;
-        background-image: url(../assets/img/promo_box_1_bg.jpg);
+        background-image: $promo-box-1;
         background-size: cover;
         background-position: bottom;
     }
@@ -54,7 +54,7 @@ export default {
     .free-shipping{
         height: 400px;
         width: 450px;
-        background-image: url(../assets/img/promo_box_2_bg.jpg);
+        background-image: $promo-box-2;
         background-size: cover;
         background-position: bottom;
     }

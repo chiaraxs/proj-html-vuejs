@@ -54,19 +54,19 @@ export default {
 @import '@/style/variables.scss';
 
 .winter-collection {
-    background-image: url("../assets/img/winter_collection_bg.jpg");
+    background-image: $winter-collection;
     background-size: cover;
     background-position: center top;
 }
 
 .spring-collection{
-    background-image: url("../assets/img/spring_collection_bg.jpg");
+    background-image: $spring-collection;
     background-size: cover;
     background-position: center top;
 }
 
 .autumn-collection{
-    background-image: url("../assets/img/autumn_collection_bg.jpg");
+    background-image: $autumn-collection;
     background-size: cover;
     background-position: center top;
 }
