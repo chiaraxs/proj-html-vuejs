@@ -138,9 +138,10 @@ a{
 
 button{
     background-color: $havelock-blue-color;
-        &:hover{
-                background-color: $shocking-color;
-            }
+        
+    &:hover{
+        background-color: $shocking-color;
+    }
 }
 
 
