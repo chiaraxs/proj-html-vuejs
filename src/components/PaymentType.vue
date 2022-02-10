@@ -4,7 +4,7 @@
             <div class="row">
 
                 <p class="text-light text-center mt-5">
-                    &copy; Copyright 2021 - 2022 | Avada Theme by Chiara | All Rights Reserved | Powered by Boolean
+                    &copy; Copyright 2021 - 2022 | Avada Theme by Chiara Cardinale | All Rights Reserved | Powered by Boolean &#10084;
                 </p>
 
                 <!-- ICONS TYPE CONTAINER -->

@@ -129,8 +129,13 @@ header{
     }  
 }
 
-a{
-    color: $shark-color;
+.container-menu{
+    
+    li{
+        &:hover{             
+        border-top: 3px solid $havelock-blue-color;
+        }
+    }
 }
 
 .fa-chevron-down{
