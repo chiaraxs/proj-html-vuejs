@@ -9,6 +9,7 @@
                     
                     <p class="text-uppercase fs-5 mb-5">featured</p>
 
+                    <!-- OUTFIT 1 -->
                     <div class="d-flex">
                         
                         <div class="text me-3">
@@ -23,6 +24,7 @@
 
                     <hr>
                     
+                    <!-- OUTFIT 2 -->
                     <div class="d-flex">
                         
                         <div class="text">
@@ -44,6 +46,7 @@
 
                     <hr>
                     
+                    <!-- OUTFIT 3 -->
                     <div class="d-flex">
                         
                         <div class="text">
@@ -66,6 +69,7 @@
 
                     <p class="text-uppercase fs-5 mb-5">on sale</p>
 
+                    <!-- OUTFIT 1 -->
                     <div class="d-flex">
                         
                         <div class="text">
@@ -87,6 +91,7 @@
 
                     <hr>
 
+                    <!-- OUTFIT 2 -->
                     <div class="d-flex">
                         
                         <div class="text">
@@ -102,6 +107,7 @@
 
                     <hr>
 
+                    <!-- OUTFIT 3 -->
                     <div class="d-flex">
                         
                         <div class="text">
@@ -125,6 +131,7 @@
 
                     <p class="text-uppercase fs-5 mb-5">top rated</p>
 
+                    <!-- OUTFIT 1 -->
                     <div class="d-flex">
                         
                         <div class="text">
@@ -145,6 +152,7 @@
 
                     <hr>
 
+                    <!-- OUTFIT 2 -->
                     <div class="d-flex">
                         
                         <div class="text">
@@ -166,6 +174,7 @@
 
                     <hr>
 
+                    <!-- OUTFIT 3 -->
                     <div class="d-flex">
                         
                         <div class="text">
@@ -194,6 +203,7 @@
 
                     <p class="text-uppercase fs-5 mb-5">latest reviews</p>
 
+                    <!-- OUTFIT 1 -->
                     <div class="d-flex">
                         
                         <div class="text">
@@ -214,6 +224,7 @@
 
                     <hr>
 
+                    <!-- OUTFIT 2 -->
                     <div class="d-flex">
                         
                         <div class="text">
@@ -234,6 +245,7 @@
 
                     <hr>
 
+                    <!-- OUTFIT 3 -->
                     <div class="d-flex">
                         
                         <div class="text">
@@ -273,7 +285,5 @@ export default {
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
 
-.fa-star{
-    color: $havelock-blue-color;
-}
+
 </style>

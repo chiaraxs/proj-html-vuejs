@@ -3,7 +3,7 @@
   
   <div id="app">
     
-    <header-box :navbar = "navbar" />
+    <header-box :navbar = "navbar" logo="/classic_shop_logo1x.png" /> 
     <hero-box />
     <featured-products />
     <collections-box />
@@ -16,6 +16,7 @@
     <brand-logs />
     <subscribe-box />
     <footer-box
+    logo="/classic_shop_logo_footer.png"
     :footerContacts = "footerContacts" 
     :topRatedProducts = "topRatedProducts"  
     :recentPosts = "recentPosts"
@@ -102,7 +103,7 @@ export default {
       // FOOTER CONTACTS
       footerContacts: [
         {
-          addres: "12345 North Main Street,",
+          address: "12345 North Main Street,",
           city: "New York, NY 55555",
           phoneNumber: "1.800.555.6789",
           mail: "info@compani.com",

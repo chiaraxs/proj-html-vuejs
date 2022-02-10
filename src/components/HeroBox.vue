@@ -1,22 +1,31 @@
 <template>
     
-    
+    <!-- CONTAINER HERO -->
     <div class="hero container-fluid mt-4">
+        
         <div class="container">
+           
+           <!-- TEXT CONTAINER CENTER -->
             <div class="row text-center container-info">
+                
                 <h1>Brand New Arrivals</h1>
                 <p class="text-uppercase">new collection from new york</p>
 
+                <!-- BUTTONS -->
                 <div class="button py-3">
+                   
                     <button type="button" class="btn text-light text-uppercase rounded-pill border border-white mx-3">view all</button>
                     <button type="button" class="btn text-light text-uppercase rounded-pill border border-white">lookbook</button>
+                
                 </div>
+                <!-- /BUTTONS -->
+                
             </div>
-            
+            <!-- TEXT CONTAINER CENTER-->
         </div>
 
     </div>
-
+    <!-- / CONTAINER HERO -->
 
 
 </template>

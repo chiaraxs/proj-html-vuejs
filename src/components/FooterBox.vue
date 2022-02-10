@@ -6,12 +6,12 @@
                 <!-- CONTACTS -->
                 <div class="col-3">
                     <div class="logo-box mt-5">
-                        <img class="logo" src="../assets/img/classic_shop_logo_footer.png" alt="">
+                        <img :src="`/img${logo}`" > 
                     </div>
 
                     <div class="list-container mt-5">
                         <ul class="list-unstyled" v-for="item in footerContacts" :key="item" >
-                            <li><a class="text-secondary text-decoration-none"> {{item.addres}} </a></li>
+                            <li><a class="text-secondary text-decoration-none"> {{item.address}} </a></li>
                             <li><a class="text-secondary text-decoration-none"> {{item.city}} </a></li>
                             <li><a class="text-secondary text-decoration-none"> Phone: {{item.phoneNumber}} </a></li>
                             <li><a class="text-secondary text-decoration-none"> Email: {{item.mail}} </a></li>
@@ -19,6 +19,7 @@
                         </ul>
                     </div>
                     
+                    <!-- SOCIAL ICONS -->
                     <div class="d-flex text-light pt-3">
                     
                         <i class="fab fa-facebook-f mx-2 "></i>
@@ -27,6 +28,7 @@
                         <i class="fab fa-youtube mx-2"></i>
                     
                     </div>
+                    <!-- / SOCIAL ICONS -->
 
                 </div>
                 <!-- / CONTACTS -->
@@ -36,10 +38,8 @@
 
                     <p class="text-uppercase text-muted mt-5">top rated products</p>
 
-                    <div class="list-container mt-5">
+                    <div class="list-container">
                         <div class="list-unstyled" v-for="item in topRatedProducts" :key="item" >
-                            
-                            <img :src="item.image">
                             
                             <li>
                                 <a class="text-secondary text-decoration-none"> {{item.article}} </a>
@@ -56,6 +56,8 @@
                             <li>
                                 <a class="text-secondary text-decoration-none"> {{item.price}} </a>
                             </li>
+
+                            <img :src="item.image" class="mt-1">
                             
                             <hr class="text-muted">
                         
@@ -103,6 +105,7 @@
 <script>
 export default {
     props: {
+       logo: String, 
        footerContacts: Array,
        topRatedProducts: Array,
        recentPosts: Array,

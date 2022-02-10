@@ -6,7 +6,11 @@
                 <!-- title -->
                 <div class="col-6 d-flex">
                     <div class="icon rounded-circle text-center me-4">
+                        
+                        <!-- ICON -->
                         <i class="fa-regular fa-envelope mt-3"></i>
+                        <!-- /ICON -->
+
                     </div>
 
                     <div class="text text-light mt-3">
@@ -47,9 +51,6 @@ export default {
 .subscribe-container{
     height: 200px;
     background-color: $deep-gray-bg;
-
-   
-
 
     .icon{
         width: 50px;

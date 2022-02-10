@@ -7,13 +7,21 @@
                 <div class="text-center mb-4">
                     
                     <div class="d-flex justify-content-center align-items-center">
+                        
+                        <!-- DIV VUOTO PER BORDI DIVISORI -->
                         <div class="border_bottom me-5"></div>
+                        <!-- / DIV VUOTO PER BORDI DIVISORI -->
+
                         <h1>From Our Blog</h1>
+
+                        <!-- DIV VUOTO PER BORDI DIVISORI -->
                         <div class="border_bottom ms-5"></div>
+                        <!-- / DIV VUOTO PER BORDI DIVISORI -->
                     </div>
 
 
                     <p class="text-muted">The latest Classic Shop news</p>
+                    
                 </div>
 
                 <!-- BOX 1 -->

@@ -3,14 +3,26 @@
         <div class="container mt-5">
             
             <div class="text-center">
+                
                 <div class="d-flex justify-content-center align-items-center">
+                    <!-- DIV VUOTO CON BORDER BOTTOM -->
                     <div class="border_bottom me-5"></div>
+                    <!-- / DIV VUOTO CON BORDER BOTTOM -->
+                    
+                    <!-- TITLE -->
                     <h1>Best Seller</h1>
+                    <!-- / TITLE -->
+
+                    <!-- DIV VUOTO CON BORDER BOTTOM -->
                     <div class="border_bottom ms-5"></div>
+                    <!-- / DIV VUOTO CON BORDER BOTTOM -->
+
                 </div>
 
-
+                <!-- DETAILS -->
                 <p class="text-muted">Must have products from our top sellers</p>
+                <!-- / DETAILS  -->
+
             </div>
                     
                     
@@ -24,7 +36,6 @@
                         <img class="img-fluid" src="../assets/img/spring_printed_dress-400x520.jpg" alt="">
                     </div>
                    
-                        
                 </div>
                 <!-- / OUTFIT 1  -->
 
@@ -35,7 +46,6 @@
                         <img class="img-fluid" src="../assets/img/modern_love_tee-400x520.jpg" alt="">
                     </div>
                     
-                        
                 </div>
                 <!-- / OUTFIT 2 -->
                         

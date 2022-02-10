@@ -2,16 +2,30 @@
     <div class="container-fluid">
         <div class="container mt-5">
             
+            <!-- TITLE CENTER -->
             <div class="text-center">
+                
                 <div class="d-flex justify-content-center align-items-center">
+                    
+                    <!-- DIV VUOTO PER BORDI DIVISORI -->
                     <div class="border_bottom me-5"></div>
+                    <!-- / DIV VUOTO PER BORDI DIVISORI -->
+                    
+                    <!-- TITLE -->
                     <h1>Featured Products</h1>
+                    <!-- / TITLE -->
+
+                    <!-- DIV VUOTO PER BORDI DIVISORI -->
                     <div class="border_bottom ms-5"></div>
+                    <!--  DIV VUOTO PER BORDI DIVISORI --> 
                 </div>
                 
+                <!-- DETAILS -->
                 <p class="text-muted">Must have products from our top sellers</p>
+                <!-- / DETAILS -->
+            
             </div>
-                    
+            <!-- TITLE CENTER  -->
                 
             <!-- BUTTONS -->
             <div class="mt-4 justify-content-center d-flex">
@@ -21,7 +35,7 @@
                 <button type="button" class="btn btn-light border border-secondary px-5 py-2 fw-bold">Accessories</button>
                 
             </div>  
-             <!-- / BUTTONS -->
+            <!-- / BUTTONS -->
                     
             <!-- OUTFITS CONTAINER -->
             <div class="row mt-5">
@@ -29,29 +43,33 @@
                 <!-- OUTFIT 1 HOVER -->
                 <div class="col-3">
                     
+                    <!-- CONTAINER OUTFIT -->
                     <div class="container-outfit">
                         
+                        <!-- SHOW -->
                         <div id="show">
                             <img class="mb-2" src="../assets/img/black_elegant_leather_jacket-400x520.jpg" alt="">
+                            
+                            <div>
+                                <span class="fw-bold">Black Leather Jacket</span>
+                                <br>
+                                <span class="text-muted">Men, Jacktes, Jeans</span>
+                                <br>
+                                <span class="text-decoration-line-through text-primary me-2">$235</span> <span class="text-primary">$200</span>
+                            </div>
                         </div>
+                        <!-- / SHOW -->
 
+                        <!-- HIDDEN -->
                         <div id="hidden">
                             <div class="container-icon d-flex align-items-center justify-content-center">
                                 <i class="fas fa-check-double"></i>
                             </div>
                         </div>
-                        
-                        
-                        <div>
-                            <span class="fw-bold">Black Leather Jacket</span>
-                            <br>
-                            <span class="text-muted">Men, Jacktes, Jeans</span>
-                            <br>
-                            <span class="text-decoration-line-through text-primary me-2">$235</span> <span class="text-primary">$200</span>
-                        </div>
-                        
+                        <!-- / HIDDEN -->
+
                     </div>
-                   
+                   <!-- / CONTAINER OUTFIT -->
                         
                 </div>
                 <!-- / OUTFIT 1 HOVER  -->
@@ -134,6 +152,7 @@ button{
     }
 }
 
+// HIDDEN
 #hidden{
     width: 400px;
     height: 520px;
@@ -157,11 +176,13 @@ button{
    
 }
 
+// SHOW
 #show{
     position: absolute;
     z-index:0;
 }
 
+// HOVER
 .container-outfit{
     
     &:hover {

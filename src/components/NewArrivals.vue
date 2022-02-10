@@ -5,13 +5,25 @@
             <div class="text-center">
                 
                 <div class="d-flex justify-content-center align-items-center">
+                    
+                    <!-- DIV VUOTO PER BORDI DIVISORI -->
                     <div class="border_bottom me-5"></div>
+                    <!-- / DIV VUOTO PER BORDI DIVISORI -->
+                    
+                    <!-- TITLE -->
                     <h1>New Arrivals</h1>
+                    <!-- / TITLE -->
+
+                    <!-- DIV VUOTO PER BORDI DIVISORI -->
                     <div class="border_bottom ms-5"></div>
+                    <!-- / DIV VUOTO PER BORDI DIVISORI -->
+
                 </div>
 
-
+                <!-- DETAILS -->
                 <p class="text-muted">Brand new products from top designers</p>
+                <!-- / DETAILS -->
+
             </div>
                     
                     
@@ -23,10 +35,13 @@
                     
                     <div class="container-outfit">
 
+                        <!-- SHOW -->
                         <div id="show">
                             <img src="../assets/img/modern_love_tee-200x260.jpg" alt="">
                         </div>
+                        <!-- / SHOW -->
 
+                        <!-- HIDDEN -->
                         <div id="hidden">
                             
                             <div class="text-light fw-bold text-center py-4">
@@ -43,8 +58,8 @@
                                 Details <i class="fas fa-info mx-1"></i></span>
                             </div>
                                 
-                            
                         </div>
+                        <!-- / HIDDEN -->
                         
                     </div>
                    
@@ -59,7 +74,6 @@
                         <img class="img-fluid" src="../assets/img/hipster_black_top-200x260.jpg" alt="">
                     </div>
                     
-                        
                 </div>
                 <!-- / OUTFIT 2 -->
                         
