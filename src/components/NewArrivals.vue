@@ -15,7 +15,30 @@
                 <div class="col">
                     
                     <div class="container-outfit">
-                        <img class="img-fluid" src="../assets/img/black_elegant_leather_jacket-400x520.jpg" alt="">
+
+                        <div id="show">
+                            <img src="../assets/img/modern_love_tee-200x260.jpg" alt="">
+                        </div>
+
+                        <div id="hidden">
+                            
+                            <div class="text-light fw-bold text-center py-4">
+                                <h4>Modern Love Tee</h4>
+                                <p>Women T-Shirt
+                                    <br>
+                                    $68
+                                </p>
+                            
+                            </div>
+                            
+                            <div class="text-light text-center fw-bold mt-5">
+                                <span>Add to cart <i class="fas fa-shopping-cart me-3"></i> 
+                                Details <i class="fas fa-info mx-1"></i></span>
+                            </div>
+                                
+                            
+                        </div>
+                        
                     </div>
                    
                         
@@ -26,7 +49,7 @@
                 <div class="col">
                     
                     <div class="container-outfit">
-                        <img class="img-fluid" src="../assets/img/hipster_black_top-400x520.jpg" alt="">
+                        <img class="img-fluid" src="../assets/img/hipster_black_top-200x260.jpg" alt="">
                     </div>
                     
                         
@@ -37,7 +60,7 @@
                 <div class="col">
 
                     <div class="container-outfit">
-                        <img class="img-fluid" src="../assets/img/black_leather_suit-400x520.jpg" alt="">
+                        <img class="img-fluid" src="../assets/img/black_leather_suit-200x260.jpg" alt="">
                     </div>
                     
                 </div>
@@ -47,17 +70,17 @@
                 <div class="col">
                     
                     <div class="container-outfit">
-                        <img class="img-fluid" src="../assets/img/spring_printed_dress-400x520.jpg" alt="">
+                        <img class="img-fluid" src="../assets/img/spring_printed_dress-200x260.jpg" alt="">
                     </div>
                     
                 </div>
                 <!-- / OUTFIT 4 -->
 
-                 <!-- OUTFIT 5 -->
+                <!-- OUTFIT 5 -->
                 <div class="col">
                     
                     <div class="container-outfit">
-                        <img class="img-fluid" src="../assets/img/modern_love_tee-400x520.jpg" alt="">
+                        <img class="img-fluid" src="../assets/img/black_elegant_leather_jacket-200x260.jpg" alt="">
                     </div>
                     
                 </div>
@@ -81,5 +104,38 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
+
+
+#hidden{
+    width: 200px;
+    height: 260px;
+    display: none;
+    background: rgb(103,122,215);
+    background: linear-gradient(169deg, rgba(103,122,215,1) 0%, rgba(225,70,252,0.3536765047816002) 100%); 
+}
+
+#show{
+    position: absolute;
+    z-index: 0;
+}
+
+.container-outfit{
+    
+    &:hover {
+        #show{
+            -webkit-transition: opacity 1s ease-in-out;
+            -moz-transition: opacity 1s ease-in-out;
+            -ms-transition: opacity 1s ease-in-out;
+            -o-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
+            opacity: 0.1;
+        }
+
+        #hidden{
+            display: block;
+        }
+    }
+}
+
 
 </style>
