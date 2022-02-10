@@ -42,7 +42,7 @@ export default {
 @import '@/style/variables.scss';
 
 .final-container{
-    background-color: #1D1F22;
+    background-color: $black-bg;
 
     .icon{
         img{

@@ -46,16 +46,16 @@ export default {
 
 .subscribe-container{
     height: 200px;
-    background-color: #303337;
+    background-color: $deep-gray-bg;
 
     .icon{
         width: 50px;
         height: 50px;
-        background-color: #2B2E32;
+        background-color: $darks-late-gray-bg;
 
         .fa-regular{
             font-size: 20px;
-            color: gray;
+            color: $edward-color;
         }
     }
 

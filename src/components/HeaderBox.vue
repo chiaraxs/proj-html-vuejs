@@ -93,17 +93,17 @@ export default {
 @import '@/style/variables.scss';
 
 header{
-    background-color: white;
+    background-color: $white-color;
 }
 .container-fluid{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid $edward-color;
     
  .container-pre-header{
      .shopping, .my-account{
-        border-right: 1px solid gray;
+        border-right: 1px solid $edward-color;
 
         p{
-         color: $text-primary-color;
+         color: $shark-color;
         }
     }
 
@@ -117,7 +117,7 @@ header{
 
     .cart{
         width: 200px;
-        background-color: rgb(241, 241, 241);
+        background-color: #f0dde6;
     }
 
  } 
@@ -126,7 +126,7 @@ header{
 }
 
 a{
-    color: $text-primary-color;
+    color: $shark-color;
 }
 .fa-chevron-down{
     font-size: 10px;
@@ -137,9 +137,9 @@ a{
 }
 
 button{
-    background-color: $button-color;
+    background-color: $havelock-blue-color;
         &:hover{
-                background-color: $button-hover;
+                background-color: $shocking-color;
             }
 }
 

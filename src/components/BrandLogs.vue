@@ -64,7 +64,7 @@ export default {
 
 .container-logo{
     height: 300px;
-    background-color: #F6F6F6;
+    background-color: $white-smoke-bg;
 }
 
 </style>

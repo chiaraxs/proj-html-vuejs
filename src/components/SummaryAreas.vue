@@ -95,7 +95,7 @@
                         </div>
 
                         <div class="img">
-                            <img src="../assets/img/black_elegant_leather_jacket-120x156.jpg" alt="">
+                            <img src="../assets/img/blue_leather_jacket-120x156.jpg" alt="">
                         </div>
                     
                     </div>
@@ -274,6 +274,6 @@ export default {
 @import '@/style/variables.scss';
 
 .fa-star{
-    color: $button-color;
+    color: $havelock-blue-color;
 }
 </style>

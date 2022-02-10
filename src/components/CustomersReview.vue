@@ -30,7 +30,7 @@ export default {
     background-size: contain;
     background-position: center;
     background-repeat: repeat;
-    color: $text-color-secondary;
+    color: $white-color;
 }
 
 </style>

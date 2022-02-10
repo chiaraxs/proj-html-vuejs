@@ -36,7 +36,7 @@ export default {
     height: 500px;
     background-size: cover;
     background-position: bottom bottom;
-    color: $text-color-secondary;
+    color: $white-color;
     
 
     .container-info{
@@ -52,7 +52,7 @@ export default {
 
        button{
             &:hover{
-                background-color: $button-hover;
+                background-color: $shocking-color;
             }
         } 
     }

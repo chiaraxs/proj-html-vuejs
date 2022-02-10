@@ -117,7 +117,7 @@ export default {
 
 .container-footer{
     max-height: 750px;
-    background-color: #2B2E32;
+    background-color: $darks-late-gray-bg;
 
     .logo-box{
         width: 200px;
@@ -128,7 +128,7 @@ export default {
     }
 
     .container-tag{
-        border: 1px solid grey;
+        border: 1px solid $edward-color;
 
     }
 
