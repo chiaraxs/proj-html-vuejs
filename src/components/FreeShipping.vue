@@ -65,4 +65,11 @@ export default {
         line-height: 30px;
     }
 }
+
+button{
+   
+    &:hover{
+        background-color: $shocking-color;
+    }
+}
 </style>

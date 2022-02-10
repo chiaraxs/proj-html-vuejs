@@ -3,7 +3,7 @@
         <!-- CONTAINER HEADER-BOX -->
     <div class="container-header-box">
 
-        <!-- PRE HEADHER - COMPONENTE A PARTE? -->
+        <!-- PRE HEADHER -->
         <div class="container-fluid">
             <div class="container container-pre-header d-flex">
                 <div class="d-flex ps-5 pt-3">
@@ -23,7 +23,7 @@
                     <p class="px-4 py-2">My Account <i class="fas fa-chevron-down"></i></p> 
                     </div>
                 <div class="cart"> 
-                    <p class="px-4 py-2 text-uppercase"><i class="fas fa-shopping-cart px-1 py-1 me-2"></i>Cart <i class="fas fa-chevron-down"></i></p> 
+                    <p class="px-4 py-2 text-uppercase"><i class="fas fa-shopping-cart py-1 px-1 me-2"></i>Cart <i class="fas fa-chevron-down px-1"></i></p> 
                     </div>
                 </div>
                 
@@ -48,7 +48,7 @@
                 <ul class="d-flex list-unstyled ">
                     <li class="px-4" v-for="item in navbar" :key="item.id">
                         <a class="text-secondary text-decoration-none" :href="item.url"> {{item.label}} </a> 
-                        <i class="fas fa-chevron-down"></i>
+                        <i class="fas fa-chevron-down px-1"></i>
                     </li>
                 </ul>
                 <!-- / MENU LIST -->
@@ -58,7 +58,7 @@
             <!-- CONTAINER BUTTON/ICON -->
             <div class="container-button-icon">
                 <!-- BUTTON -->
-                <button type="button" class="btn text-light text-uppercase rounded-pill mb-3 me-4 ">Shop now!</button>
+                <button type="button" class="btn text-light text-uppercase rounded-pill mb-3 me-4">Shop now!</button>
                 <!-- / BUTTON -->
 
                 <!-- SEARCH LENS -->

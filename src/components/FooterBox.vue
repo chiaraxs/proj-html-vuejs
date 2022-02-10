@@ -121,6 +121,7 @@ export default {
 
     .logo-box{
         width: 200px;
+        
 
         img{
             width: 100%;
@@ -129,6 +130,11 @@ export default {
 
     .container-tag{
         border: 1px solid $edward-color;
+        cursor: pointer;
+
+        &:hover{
+        background-color: $shocking-color;
+    }
 
     }
 

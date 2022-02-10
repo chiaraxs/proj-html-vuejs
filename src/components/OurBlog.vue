@@ -5,7 +5,14 @@
             <div class="row mt-3">
             
                 <div class="text-center mb-4">
-                    <h1>From Our Blog</h1>
+                    
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="border_bottom me-5"></div>
+                        <h1>From Our Blog</h1>
+                        <div class="border_bottom ms-5"></div>
+                    </div>
+
+
                     <p class="text-muted">The latest Classic Shop news</p>
                 </div>
 
@@ -73,6 +80,10 @@ export default {
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
 
+.border_bottom{
+    border-bottom: 1px solid $edward-color;
+    width: 400px;
+}
 .box{
     width: 300px;
     line-height: 30px;

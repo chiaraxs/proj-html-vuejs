@@ -48,10 +48,17 @@ export default {
     height: 200px;
     background-color: $deep-gray-bg;
 
+   
+
+
     .icon{
         width: 50px;
         height: 50px;
         background-color: $darks-late-gray-bg;
+
+        &:hover{
+            background-color: $shocking-color;
+        }
 
         .fa-regular{
             font-size: 20px;
@@ -71,5 +78,9 @@ export default {
 
 button{
     width: 150px;
+
+    &:hover{
+        background-color: $shocking-color;
+    }
 }
 </style>

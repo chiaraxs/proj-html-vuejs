@@ -74,4 +74,11 @@ export default {
 .details{
     margin-top: 300px;
 }
+
+button{
+      
+    &:hover{
+        background-color: $shocking-color;
+    }
+}
 </style>

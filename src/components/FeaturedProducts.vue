@@ -3,7 +3,12 @@
         <div class="container mt-5">
             
             <div class="text-center">
-                <h1>Featured Products</h1>
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="border_bottom me-5"></div>
+                    <h1>Featured Products</h1>
+                    <div class="border_bottom ms-5"></div>
+                </div>
+                
                 <p class="text-muted">Must have products from our top sellers</p>
             </div>
                     
@@ -115,6 +120,11 @@ export default {
 
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
+
+.border_bottom{
+    border-bottom: 1px solid $edward-color;
+    width: 400px;
+}
 
 button{
     background-color: $white-smoke-bg;
